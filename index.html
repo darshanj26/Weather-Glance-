@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App using Javascript</title>
+</head>
+<body>
+    <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/WG-logo.png" alt="">
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="about.html">About this Site</a></li>
+       
+         
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+    <div class="box">
+        
+        <div class="header">
+            <div class="search-box">
+            <input type="text" placeholder="Enter Your Location" class="input-box">
+            <button id="searchBtn">Search</button>
+
+        </div>
+        <div id="ti">Current Time & Date:
+        <div id="time">
+        </div>
+        </div>
+    </div>
+    <div class="location-not-found">
+        <h1>Sorry,location not found!</h1>
+        <img src="assets/404.png" alt="404 Error" srcset="">
+    </div>
+        <div class="weather-body">
+            <img src="assets/cloud.png" alt="Weather Image" srcset="" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature"> 0<sup>°C</sup></p>
+                <p class="description">Light Rain</p>
+            </div>
+            <div class="weather-details">
+                <div class="left">
+                    <div class="humidity">
+                        <img src="assets/humidity.png" alt="" srcset="">
+                        <p id="humidity">45%</p>
+                       
+                    </div>  
+             
+                    <div class="text">
+                           <p>Humidity</p>`
+                        </div>
+                      
+                 
+                    <div class="wind-speed">
+                        <img src="assets/54298.png" alt="" srcset="">
+                        <p id="wind-speed">12km/H</p>
+                    </div>
+                        <div class="text">
+                           <p>Wind Speed</p>
+                        </div>
+                    
+                    
+                
+            </div>
+                
+                <div class="right">
+                    <div class="pressure">
+                        <img src="assets/pressure.png" alt="" srcset="">
+                            <p id="pressure">12mb</p>
+                        </div>
+                         <div class="textp">
+                        <p>Pressure</p>
+                            </div>
+                       
+               
+                    <div class="feels">
+                        <img src="assets/visibility.png" alt="" srcset="">
+                        <p id="feels">IN</p>
+                     
+                        </div>
+                        <div class="textf">
+                            <p >Feels Like</p>
+                           
+                            
+                            </div>
+    
+                       </div>
+                       </div>
+                       <div class="country">
+                        <img src="assets/Country.png" alt="" srcset="">
+                        <p id="country">IN</p>
+                     
+                        </div>
+                        <div class="textc">
+                            <p >Country</p>
+                           
+                            
+                            </div>
+    
+                       </div>
+         
+              
+    </div>
+    <footer id="footer" class="footer">
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Code Enthusiasts</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by Code Enthusiasts</a>
+          </div>
+        </div>
+      </footer>
+    </body>
+    
+    <script src="script.js"></script>
+</body>
+</html>
